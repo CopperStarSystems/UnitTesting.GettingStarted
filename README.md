@@ -5,4 +5,4 @@ This code was written to support my CodeMentor Tutorial:  Getting Started with U
 
 ### Stuck?  Want More Information?
 #### Contact Me on CodeMentor for Live 1:1 Guidance!
->[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/copperstarconsulting?utm_source=github&utm_medium=button&utm_term=copperstarconsulting&utm_campaign=github)
+[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/copperstarconsulting?utm_source=github&utm_medium=button&utm_term=copperstarconsulting&utm_campaign=github)
