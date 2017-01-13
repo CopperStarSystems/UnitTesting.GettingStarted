@@ -33,7 +33,7 @@ namespace UnitTesting.GettingStarted.Tests.CreditDecisionExample
     ************************************************************/
 
     [TestFixture]
-    [Ignore("Remove this IgnoreAttribute to execute these tests.")]
+    //[Ignore("Remove this IgnoreAttribute to execute these tests.")]
     public class BadCreditDecisionTests
     {
         readonly CreditDecisionService creditDecisionService = new CreditDecisionService();
@@ -43,8 +43,8 @@ namespace UnitTesting.GettingStarted.Tests.CreditDecisionExample
         [TestCase(100, "Declined")]
         [TestCase(549, "Declined")]
         [TestCase(550, "Maybe")]
-        [TestCase(674, "Maybe")]
-        [TestCase(675, "We look forward to doing business with you!")]
+        [TestCase(675, "Maybe")]
+        [TestCase(676, "We look forward to doing business with you!")]
         public void MakeCreditDecision_Always_ReturnsExpectedResult(int creditScore, string expectedResult)
         {
             // We're using a concrete CreditDecision class instead of a mock.
