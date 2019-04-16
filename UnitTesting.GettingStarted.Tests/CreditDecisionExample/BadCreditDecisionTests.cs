@@ -1,6 +1,6 @@
 ﻿//  --------------------------------------------------------------------------------------
 // UnitTesting.GettingStarted.Tests.BadCreditDecisionTests.cs
-// 2017/01/13
+// 2017/05/11
 //  --------------------------------------------------------------------------------------
 
 using NUnit.Framework;
@@ -36,7 +36,7 @@ namespace UnitTesting.GettingStarted.Tests.CreditDecisionExample
     //[Ignore("Remove this IgnoreAttribute to execute these tests.")]
     public class BadCreditDecisionTests
     {
-        readonly CreditDecisionService creditDecisionService = new CreditDecisionService();
+        readonly CreditDecisionService creditDecisionService = new CreditDecisionService(new ExternalCreditDecisionService());
 
         CreditDecision systemUnderTest;
 

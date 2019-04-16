@@ -43,7 +43,9 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="CreditDecisionExample\CreditDecision.cs" />
     <Compile Include="CreditDecisionExample\CreditDecisionService.cs" />
+    <Compile Include="CreditDecisionExample\ExternalCreditDecisionService.cs" />
     <Compile Include="CreditDecisionExample\ICreditDecisionService.cs" />
+    <Compile Include="CreditDecisionExample\IExternalCreditDecisionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

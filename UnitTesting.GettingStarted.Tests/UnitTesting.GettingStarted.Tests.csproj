@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="CalculatorTests.cs" />
     <Compile Include="CreditDecisionExample\BadCreditDecisionTests.cs" />
+    <Compile Include="CreditDecisionExample\CreditDecisionServiceTests.cs" />
     <Compile Include="CreditDecisionExample\CreditDecisionTests.cs" />
     <Compile Include="HelloNunit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
