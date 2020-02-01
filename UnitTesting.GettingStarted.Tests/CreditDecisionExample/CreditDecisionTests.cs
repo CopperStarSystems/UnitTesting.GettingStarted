@@ -24,7 +24,7 @@ namespace UnitTesting.GettingStarted.Tests.CreditDecisionExample
         public void MakeCreditDecision_Always_ReturnsExpectedResult(int creditScore, string expectedResult)
         {
             mockCreditDecisionService = new Mock<ICreditDecisionService>(MockBehavior.Strict);
-            mockCreditDecisionService.Setup(p => p.GetDecision(creditScore)).Returns(expectedResult);
+            mockCreditDecisionService.Setup(p => p.GetDecision(It.IsAny<int>())).Returns(expectedResult);
 
             systemUnderTest = new CreditDecision(mockCreditDecisionService.Object);
             var result = systemUnderTest.MakeCreditDecision(creditScore);
